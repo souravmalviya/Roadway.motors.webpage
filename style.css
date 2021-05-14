@@ -1,0 +1,154 @@
+  body {
+    background-color: #948077;
+    color: #1a0c0c;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 15px;
+  }
+  
+  .container {
+    max-width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-content { background-color: #ffffff; }
+   
+  #intro-img {
+    background-image: url(/ROADWAYMAIN.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 650px;
+  }
+  
+  .text-white { color: rgb(19, 15, 15); }
+ 
+  .page-header-container { text-align: center; }
+
+  .page-header {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2.1 rem;
+    font-weight: 400;
+  }
+   
+  .section-header {
+    color: #996633;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  table {
+    width: 100%;
+    border-spacing: 0px;
+  }
+       
+  td {
+    text-align: center;
+    padding: 10px 15px;
+  }
+ 
+  .text-left { text-align: left; }
+   
+  th {
+    color: #412d26;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+ 
+  tr:nth-child(odd) { background-color: #cdd1a9; }
+ 
+  tr.tr-header {
+    background-color: #b89172;
+    height: 50px;
+  }
+   
+  .section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .section-small {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+  }
+ 
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+ 
+  .mb-0 { margin-bottom: 0; }
+  img { max-width: 100%; }
+  figure { margin: 0; }
+  figcaption { text-align: center; }
+
+  figcaption span {
+    display: block;
+    color: #757575;
+    font-size: 18px;
+  }
+   
+  .item-name {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+    
+  .special-items {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .special-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+     
+  hr {
+    width: 60%;
+    border: 0.5px solid #ccc;
+  }
+ 
+  .contact-link {
+    color: #d8d7d7;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .fix-me{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+   
+}
+  
+  a { transition: all 0.3s ease; }
+  .contact-link:hover { color: #000000; }
+  
+  .footer-text {
+    font-size: 0.9rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+ 
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-link:hover { color: #c5ced8; }  
